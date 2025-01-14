@@ -5,7 +5,7 @@ import Styles from "./CountryCard.module.css";
 function Countrycard({countryimg, countryname}){
 
     return(
-        <div className={Styles.Card}>
+        <div className={Styles.countryCard}>
             <div>
                 <img src={countryimg} className={Styles.CardImg} alt={countryname} />
             </div>
