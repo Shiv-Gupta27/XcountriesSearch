@@ -9,9 +9,7 @@ function Countrycard({countryimg, countryname}){
             <div>
                 <img src={countryimg} className={Styles.CardImg} alt={countryname} />
             </div>
-            <div>
-                <p>{countryname}</p>
-            </div>
+            <p>{countryname}</p>
         </div>
     )
 
