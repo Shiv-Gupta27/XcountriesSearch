@@ -42,7 +42,7 @@ function Searchcountry(){
                 <input type="text" className={Styles.Search} value={SearchText} onChange={(e)=>{SetSearchText(e.target.value)}} name="searchbox" />
             </div>
 
-            <div className={Styles.FlagContainer}>
+            <div className={Styles.countryCard}>
                 {
                     filterCountry?filterCountry.map((ele)=>{
                         return <Countrycard countryimg = {ele.png} countryname = {ele.common} />       
