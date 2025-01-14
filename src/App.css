@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.containner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;   
+  justify-content: center;
+}
+
+.Search{
+  width: 50%;
+  height: 30px;
+  margin: 20px;
+}
+
+.countryCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 15px;
+}
+
+.CardImg{
+  width: 150px;
+  height: 150px;
+}
+
